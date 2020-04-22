@@ -3,10 +3,22 @@ def create_an_empty_array
 end
 
 def create_an_array ; ["1", "2", "3", "4"]
+<<<<<<< HEAD
 end
 
 def add_element_to_end_of_array(array,element)
   array << element
+=======
+  
+  
+end
+
+def add_element_to_end_of_array(array,element)
+  add_element_to_end_of_array << "array, element"
+  puts add_element_to_end_of_array.inspect
+
+  
+>>>>>>> 3819a0d9212529eae1b22d1959bc5e97762bd252
 end
 
 def add_element_to_start_of_array(array, element)
